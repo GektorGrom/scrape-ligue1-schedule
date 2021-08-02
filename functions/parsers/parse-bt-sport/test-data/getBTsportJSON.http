@@ -1,0 +1,1 @@
+GET https://users-atlas.metabroadcast.com/4/schedules.json?id=hspr,hspc,hspd,hspf,hspg,hspk&annotations=channel,content_detail,content.broadcast_channel&from={{start}}&to={{end}}&source=api.youview.tv&key=b5986b31b34243c4be2da2dc8020aaaf
