@@ -1,6 +1,6 @@
 export default [
   {
-    id: '1628217000000Ligue 1 ShowLigue 1 Show',
+    id: '1628217000Ligue 1 ShowBT Sport 2',
     start: 1628217000000,
     end: 1628218800000,
     home: 'Ligue 1 Show',
@@ -12,7 +12,7 @@ export default [
     chanel: 'BT Sport 2',
   },
   {
-    id: '1628273700000Ligue 1 ShowLigue 1 Show',
+    id: '1628273700Ligue 1 ShowBT Sport 2',
     start: 1628273700000,
     end: 1628275500000,
     home: 'Ligue 1 Show',
@@ -24,7 +24,7 @@ export default [
     chanel: 'BT Sport 2',
   },
   {
-    id: '1628275500000Live: Monaco v NantesFrench Ligue 1',
+    id: '1628275500Live: Monaco v NantesBT Sport 2',
     start: 1628275500000,
     end: 1628283600000,
     home: 'Monaco',
@@ -36,7 +36,7 @@ export default [
     chanel: 'BT Sport 2',
   },
   {
-    id: '1628226000000Ligue 1 ShowLigue 1 Show',
+    id: '1628226000Ligue 1 ShowBT Sport 3',
     start: 1628226000000,
     end: 1628227800000,
     home: 'Ligue 1 Show',
@@ -48,7 +48,7 @@ export default [
     chanel: 'BT Sport 3',
   },
   {
-    id: '1628242200000Ligue 1 ShowLigue 1 Show',
+    id: '1628242200Ligue 1 ShowBT Sport 3',
     start: 1628242200000,
     end: 1628244000000,
     home: 'Ligue 1 Show',
@@ -60,7 +60,7 @@ export default [
     chanel: 'BT Sport 3',
   },
   {
-    id: '1628263800000Ligue 1 ShowLigue 1 Show',
+    id: '1628263800Ligue 1 ShowBT Sport 3',
     start: 1628263800000,
     end: 1628265600000,
     home: 'Ligue 1 Show',

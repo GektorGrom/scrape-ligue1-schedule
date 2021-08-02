@@ -12,7 +12,7 @@ async function getBTChannel(rawData) {
       .map((item) => ({
         ...item,
         chanel: title,
-        id: `${item.start}${item.title}${item.competition}`,
+        id: `${item.start / 1000}${item.title}${title}`,
       }));
   } catch (e) {
     console.log(e);
