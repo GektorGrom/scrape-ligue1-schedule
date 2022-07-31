@@ -2,6 +2,7 @@
 /* eslint-disable */
 import dynamoose from 'dynamoose';
 import meow from 'meow';
+import processBeInEvents from './libs/BeIn/processBeInEvents.js';
 import processBTEvents from './libs/BTSport/processBTEvents.js';
 
 const cli = meow(
@@ -11,6 +12,7 @@ const cli = meow(
 
 	Options
 	  --btSport, -bt  Include BT Sport events
+	  --beIn  Include BeIN Sport events
 	  --accessKeyId, -k  AWS Key for DynamoDB access
 	  --secretAccessKey, -s  AWS Secret for DynamoDB access
 	  --region, -r  AWS Region for DynamoDB access
@@ -25,7 +27,11 @@ const cli = meow(
       'btSport': {
         type: 'boolean',
         alias: 'bt',
-        default: true,
+        default: false,
+      },
+      'beIn': {
+        type: 'boolean',
+        default: false,
       },
       'region': {
         type: 'string',
@@ -50,15 +56,24 @@ async function schedule() {
       console.log('BT Sport events Saved');
     });
   }
+  if (cli.flags?.beIn) {
+    await processBeInEvents().then((res) => {
+      console.log(res);
+      console.log('BeIN sports events Saved');
+    });
+  }
 }
+
+dynamoose.aws.sdk.config.update({
+  region: 'us-west-2',
+});
 if (cli.flags.accessKeyId && cli.flags.secretAccessKey) {
   dynamoose.aws.sdk.config.update({
     accessKeyId: cli.flags.accessKeyId,
     secretAccessKey: cli.flags.secretAccessKey,
-    region: 'us-west-2',
   });
 }
 
 schedule().then(() => {
-  console.log('All events saved.');
+  console.log('All processed.');
 })

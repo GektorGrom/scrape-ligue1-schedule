@@ -4,17 +4,29 @@
       "error",
       {
         "properties": "never",
-        "allow": ["access_token", "refresh_token", "expires_at"]
+        "allow": [
+          "access_token",
+          "refresh_token",
+          "expires_at"
+        ]
       }
     ],
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
-    "import/extensions": ["error", "always"]
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+    "import/extensions": [
+      "error",
+      "always"
+    ]
   },
-  "env": {
-    "jest/globals": true
-  },
-  "extends": ["airbnb-base", "plugin:jest/recommended"],
-  "plugins": ["jest"],
+  "env": {},
+  "extends": [
+    "airbnb-base"
+  ],
+  "plugins": [],
   "parserOptions": {
     "ecmaVersion": 2021
   }
