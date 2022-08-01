@@ -15,6 +15,7 @@ async function getBTChannel(rawData) {
         id: `${item.start / 1000}${item.title}${title}`,
       }));
   } catch (e) {
+    // eslint-disable-next-line no-console
     console.log(e);
     return null;
   }

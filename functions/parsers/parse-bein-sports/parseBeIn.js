@@ -1,6 +1,7 @@
 import * as cheerio from 'cheerio';
 import { format } from 'date-fns';
 import getChanelName from './helpers/getChanelName.js';
+import getTeamName from './helpers/getTeamName.js';
 import isFrenchTeam from './helpers/isFrenchTeam.js';
 import splitTIme from './helpers/splitTIme.js';
 
@@ -42,7 +43,7 @@ async function parseBeIn({ html, meta }) {
         competition,
         isLive,
         chanel,
-        home: titleSplit[0],
+        home: getTeamName(titleSplit[0]),
         away: isLigueShow ? '' : titleSplit[1].replace('.', '').trim(),
         isLigueShow,
       };

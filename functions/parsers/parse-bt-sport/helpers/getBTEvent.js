@@ -33,8 +33,11 @@ function getBTEvent(entry) {
     }
     return null;
   } catch (e) {
+    // eslint-disable-next-line no-console
     console.log(e);
+    // eslint-disable-next-line no-console
     console.log('Unable to parse event');
+    // eslint-disable-next-line no-console
     console.log(entry);
     return null;
   }

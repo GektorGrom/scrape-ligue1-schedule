@@ -4,7 +4,7 @@ import fetchBTSchedule from '../../functions/fetchers/fetchBTSchedule/fetchBTSch
 import parseBTSportAPI from '../../functions/parsers/parse-bt-sport/parseBTSportAPI.js';
 
 function retrieveAndSave(startDate, iteration = 0) {
-  if (iteration > 7) {
+  if (iteration > 5) {
     return 'BT Sport events Processed';
   }
   return fetchBTSchedule(startDate)

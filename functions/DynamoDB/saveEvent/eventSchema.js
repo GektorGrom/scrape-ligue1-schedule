@@ -10,8 +10,8 @@ const eventSchema = new dynamoose.Schema(
     chanel: String,
     start: Number,
     end: Number,
-    isLive: String,
-    isLigueShow: String,
+    isLive: Boolean,
+    isLigueShow: Boolean,
   },
   {
     saveUnknown: true,

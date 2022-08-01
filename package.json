@@ -16,9 +16,13 @@
     "axios": "^0.27.2",
     "cheerio": "1.0.0-rc.12",
     "date-fns": "^2.29.1",
-    "date-fns-tz": "^1.3.6",
-    "dynamoose": "^2.8.6",
+    "dynamoose": "3.0.0-beta.6",
     "meow": "^10.1.3",
     "ow": "^1.0.0"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .js",
+    "test": "uvu functions/parsers/parse-bein-sports",
+    "watch": "watchlist functions/parsers/parse-bein-sports -- pnpm test"
   }
 }
