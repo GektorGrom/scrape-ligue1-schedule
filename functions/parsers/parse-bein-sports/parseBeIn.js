@@ -1,7 +1,7 @@
 import * as cheerio from 'cheerio';
 import { format } from 'date-fns';
 import getChanelName from './helpers/getChanelName.js';
-import getTeamName from './helpers/getTeamName.js';
+import getCleanTeamName from './helpers/getCleanTeamName.js';
 import isFrenchTeam from './helpers/isFrenchTeam.js';
 import splitTIme from './helpers/splitTIme.js';
 
@@ -43,8 +43,8 @@ async function parseBeIn({ html, meta }) {
         competition,
         isLive,
         chanel,
-        home: getTeamName(titleSplit[0]),
-        away: isLigueShow ? '' : titleSplit[1].replace('.', '').trim(),
+        home: getCleanTeamName(titleSplit[0]),
+        away: isLigueShow ? '' : getCleanTeamName(titleSplit[1]),
         isLigueShow,
       };
       beInMatchObjects.push(beInMatchObject);
