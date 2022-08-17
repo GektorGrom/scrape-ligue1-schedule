@@ -1,3 +1,4 @@
+import { dateToUTCDay } from '../../../libs/date-helpers/dateToUTC.js';
 import getChanelName from './helpers/getChanelName.js';
 import getCleanTeamName from './helpers/getCleanTeamName.js';
 
@@ -26,11 +27,12 @@ async function parseBeInJSON(options) {
         channelId,
         live = false,
       } = object;
+      const startAsDate = new Date(startDate);
       const [home, away] = title.split('vs');
       return {
         id: `${startDate}_${title}`,
         title,
-        start: new Date(startDate).getTime(),
+        start: startAsDate.getTime(),
         end: new Date(endDate).getTime(),
         competition: 'Ligue 1',
         isLive: live,
@@ -38,6 +40,7 @@ async function parseBeInJSON(options) {
         home: getCleanTeamName(home),
         away: getCleanTeamName(away),
         isLigueShow: false,
+        utcDay: dateToUTCDay(startAsDate),
       };
     });
 }

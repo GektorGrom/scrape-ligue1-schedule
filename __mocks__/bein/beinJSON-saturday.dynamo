@@ -1,0 +1,41 @@
+[
+  {
+    "id": "2022-08-06T18:50:00Z_Fútbol Ligue 1 - Clermont Foot vs. Paris Saint-Germain",
+    "title": "Fútbol Ligue 1 - Clermont Foot vs. Paris Saint-Germain",
+    "start": 1659811800000,
+    "end": 1659819600000,
+    "competition": "Ligue 1",
+    "isLive": true,
+    "chanel": "BeIn Sport HD",
+    "home": "Clermont Foot",
+    "away": "Paris Saint-Germain",
+    "isLigueShow": false,
+    "utcDay": "2022-08-06"
+  },
+  {
+    "id": "2022-08-06T21:00:00Z_Fútbol Ligue 1 - Strasbourg vs. AS Monaco",
+    "title": "Fútbol Ligue 1 - Strasbourg vs. AS Monaco",
+    "start": 1659819600000,
+    "end": 1659826800000,
+    "competition": "Ligue 1",
+    "isLive": false,
+    "chanel": "BeIn Sport HD",
+    "home": "Strasbourg",
+    "away": "AS Monaco",
+    "isLigueShow": false,
+    "utcDay": "2022-08-06"
+  },
+  {
+    "id": "2022-08-06T18:50:00Z_Fútbol Ligue 1 - Clermont vs. Paris Saint-Germain",
+    "title": "Fútbol Ligue 1 - Clermont vs. Paris Saint-Germain",
+    "start": 1659811800000,
+    "end": 1659819600000,
+    "competition": "Ligue 1",
+    "isLive": true,
+    "chanel": "BeIn Sport Español",
+    "home": "Clermont",
+    "away": "Paris Saint-Germain",
+    "isLigueShow": false,
+    "utcDay": "2022-08-06"
+  }
+]

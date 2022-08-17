@@ -1,5 +1,6 @@
 import * as cheerio from 'cheerio';
 import { format } from 'date-fns';
+import { dateToUTCDay } from '../../../libs/date-helpers/dateToUTC.js';
 import getChanelName from './helpers/getChanelName.js';
 import getCleanTeamName from './helpers/getCleanTeamName.js';
 import isFrenchTeam from './helpers/isFrenchTeam.js';
@@ -46,6 +47,7 @@ async function parseBeIn({ html, meta }) {
         home: getCleanTeamName(titleSplit[0]),
         away: isLigueShow ? '' : getCleanTeamName(titleSplit[1]),
         isLigueShow,
+        utcDay: dateToUTCDay(new Date(`${currentDay} ${matchTime.start} -7`)),
       };
       beInMatchObjects.push(beInMatchObject);
     }

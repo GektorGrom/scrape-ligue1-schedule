@@ -1,14 +1,17 @@
+import { dateToUTCDay } from '../../../../libs/date-helpers/dateToUTC.js';
+
 function getBTEvent(entry) {
   try {
     const { item, broadcast } = entry;
     const { transmission_time: startTime, transmission_end_time: endTime } = broadcast;
     const { display_title: { title, subtitle }, id } = item;
+    const startDate = new Date(startTime);
     if (title === 'French Ligue 1') {
       const [home, away] = subtitle.split(' v ');
       const isLive = home.includes('Live');
       return {
         id,
-        start: new Date(startTime).getTime(),
+        start: startDate.getTime(),
         end: new Date(endTime).getTime(),
         home: home.replace('Live:', '').trim(),
         away,
@@ -16,6 +19,7 @@ function getBTEvent(entry) {
         title: subtitle,
         isLigueShow: false,
         isLive,
+        utcDay: dateToUTCDay(startDate),
       };
     }
     if (title === 'Ligue 1 Show') {
@@ -29,6 +33,7 @@ function getBTEvent(entry) {
         title: 'Ligue 1 Show',
         isLigueShow: true,
         isLive: true,
+        utcDay: dateToUTCDay(startDate),
       };
     }
     return null;

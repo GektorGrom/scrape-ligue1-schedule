@@ -12,6 +12,7 @@ const eventSchema = new dynamoose.Schema(
     end: Number,
     isLive: Boolean,
     isLigueShow: Boolean,
+    utcDay: String,
   },
   {
     saveUnknown: true,
