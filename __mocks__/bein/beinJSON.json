@@ -1,0 +1,409 @@
+[
+  {
+    "channelId": "54525",
+    "startDate": "2022-08-06T19:00:00.000Z",
+    "endDate": "2022-08-06T21:00:00.000Z",
+    "schedules": [
+      {
+        "channelId": "54525",
+        "channelType": "sport",
+        "competitionTag": "",
+        "customFields": {
+          "CustomID": "epgevent-246c1903f65b5523a6c9237c1467155f",
+          "Category": "Soccer",
+          "Sport": "Soccer",
+          "audience": "CA",
+          "Checksum": "7612264a-2745-4c64-97f8-4dd6c507a492"
+        },
+        "endDate": "2022-08-06T21:00:00Z",
+        "id": "ba5e38a",
+        "live": true,
+        "sportTag": "football",
+        "startDate": "2022-08-06T18:50:00Z",
+        "item": {
+          "id": "",
+          "type": "program",
+          "title": "Fútbol Ligue 1 - Clermont Foot vs. Paris Saint-Germain",
+          "path": "",
+          "duration": 7800,
+          "images": {
+            "thumbnail": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='298500'&EntityType='LinearSchedule'&EntityId='ba5e38a9-ec2a-4bfc-99c8-d7e44b09677f'&Width=160&Height=90&ImageUrl=298500.jpg&device=web_browser&subscriptions=Anonymous",
+            "tile": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='301906'&EntityType='LinearSchedule'&EntityId='ba5e38a9-ec2a-4bfc-99c8-d7e44b09677f'&Width=1920&Height=1080&ImageUrl=301906.png&device=web_browser&subscriptions=Anonymous"
+          }
+        },
+        "isFake": false
+      },
+      {
+        "channelId": "54525",
+        "channelType": "sport",
+        "competitionTag": "",
+        "customFields": {
+          "CustomID": "epgevent-d9c4029fc20d577c86e8039995ae71a8",
+          "Category": "Soccer",
+          "Sport": "Soccer",
+          "audience": "CA",
+          "Checksum": "5e79ed98-73f8-4d88-b9ca-e533543cf695"
+        },
+        "endDate": "2022-08-06T23:00:00Z",
+        "id": "22ef715",
+        "sportTag": "football",
+        "startDate": "2022-08-06T21:00:00Z",
+        "item": {
+          "id": "",
+          "type": "program",
+          "title": "Fútbol Ligue 1 - Strasbourg vs. AS Monaco",
+          "path": "",
+          "duration": 7200,
+          "images": {
+            "thumbnail": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='298500'&EntityType='LinearSchedule'&EntityId='22ef7157-fc8a-4af6-9ccc-77b8bbdecc9b'&Width=160&Height=90&ImageUrl=298500.jpg&device=web_browser&subscriptions=Anonymous",
+            "tile": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='301906'&EntityType='LinearSchedule'&EntityId='22ef7157-fc8a-4af6-9ccc-77b8bbdecc9b'&Width=1920&Height=1080&ImageUrl=301906.png&device=web_browser&subscriptions=Anonymous"
+          }
+        },
+        "isFake": false
+      }
+    ],
+    "catalogVideoId": "55592"
+  },
+  {
+    "channelId": "54524",
+    "startDate": "2022-08-06T19:00:00.000Z",
+    "endDate": "2022-08-06T21:00:00.000Z",
+    "schedules": [
+      {
+        "channelId": "54524",
+        "channelType": "sport",
+        "competitionTag": "",
+        "customFields": {
+          "CustomID": "epgevent-78046ea809af5b768975530baa7d4f10",
+          "Category": "Soccer",
+          "Sport": "Soccer",
+          "audience": "US,CA",
+          "Checksum": "2cbdeca8-f4e3-4539-85c1-ed50ee8305dc"
+        },
+        "endDate": "2022-08-06T21:00:00Z",
+        "id": "4c19085",
+        "live": true,
+        "sportTag": "football",
+        "startDate": "2022-08-06T18:50:00Z",
+        "item": {
+          "id": "",
+          "type": "program",
+          "title": "Fútbol Ligue 1 - Clermont vs. Paris Saint-Germain",
+          "shortDescription": "Jornada 1 de la Ligue 1. Clermont Foot recibe a Paris Saint-Germain, último campeón del torneo, en el estadio Gabriel Montpied. El último enfrentamiento entre lanceros y parisinos terminó en triunfo 6-1 del PSG (3 goles de Neymar y 3 de Mbappé).",
+          "path": "",
+          "duration": 7800,
+          "images": {
+            "thumbnail": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='298500'&EntityType='LinearSchedule'&EntityId='4c190852-9911-4afe-88f9-bd38f7b7f26e'&Width=160&Height=90&ImageUrl=298500.jpg&device=web_browser&subscriptions=Anonymous",
+            "tile": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='301906'&EntityType='LinearSchedule'&EntityId='4c190852-9911-4afe-88f9-bd38f7b7f26e'&Width=1920&Height=1080&ImageUrl=301906.png&device=web_browser&subscriptions=Anonymous"
+          }
+        },
+        "isFake": false
+      },
+      {
+        "channelId": "54524",
+        "channelType": "sport",
+        "competitionTag": "",
+        "customFields": {
+          "CustomID": "epgevent-fcca9e140ddb58e3a39f0259a54e3c65",
+          "Category": "Sports talk",
+          "audience": "US,CA",
+          "Checksum": "c4ca1e62-5a45-40a2-8bf2-9f02cf849645"
+        },
+        "endDate": "2022-08-06T21:30:00Z",
+        "id": "d4fd160",
+        "live": true,
+        "sportTag": "",
+        "startDate": "2022-08-06T21:00:00Z",
+        "item": {
+          "id": "",
+          "type": "program",
+          "title": "The Locker Room",
+          "shortDescription": "Los comentaristas expertos Bodo Illgner, Ray Hudson y Ian Joy analizan y debaten los partidos y jugadas más controvertidas del fin de semana.",
+          "path": "",
+          "duration": 1800,
+          "images": {
+            "thumbnail": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='302848'&EntityType='LinearSchedule'&EntityId='d4fd1607-c7bb-4e1c-9e02-5f4953419997'&Width=160&Height=90&ImageUrl=302848.png&device=web_browser&subscriptions=Anonymous",
+            "tile": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='312869'&EntityType='LinearSchedule'&EntityId='d4fd1607-c7bb-4e1c-9e02-5f4953419997'&Width=1920&Height=1080&ImageUrl=312869.jpg&device=web_browser&subscriptions=Anonymous",
+            "wallpaper": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='312871'&EntityType='LinearSchedule'&EntityId='d4fd1607-c7bb-4e1c-9e02-5f4953419997'&Width=1920&Height=1080&ImageUrl=312871.jpg&device=web_browser&subscriptions=Anonymous"
+          }
+        },
+        "isFake": false
+      }
+    ],
+    "catalogVideoId": "55584"
+  },
+  {
+    "channelId": "54521",
+    "startDate": "2022-08-06T19:00:00.000Z",
+    "endDate": "2022-08-06T21:00:00.000Z",
+    "schedules": [
+      {
+        "channelId": "54521",
+        "channelType": "sport",
+        "competitionTag": "",
+        "customFields": {
+          "CustomID": "epgevent-9ee2327cb5425d2cafd280c054662bd7",
+          "Category": "Racquet",
+          "audience": "US,CA",
+          "Checksum": "0868de56-d4c3-41f4-b46f-ee83ef9ca079"
+        },
+        "endDate": "2022-08-06T19:00:00Z",
+        "id": "b564107",
+        "live": true,
+        "sportTag": "",
+        "startDate": "2022-08-06T16:55:00Z",
+        "item": {
+          "id": "",
+          "type": "program",
+          "title": "Pádel - Madrid Premier Padel Major: Final",
+          "path": "",
+          "duration": 7500,
+          "images": {
+            "thumbnail": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='302848'&EntityType='LinearSchedule'&EntityId='b5641076-67bc-4865-85b9-a994173abbda'&Width=160&Height=90&ImageUrl=302848.png&device=web_browser&subscriptions=Anonymous",
+            "tile": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='312869'&EntityType='LinearSchedule'&EntityId='b5641076-67bc-4865-85b9-a994173abbda'&Width=1920&Height=1080&ImageUrl=312869.jpg&device=web_browser&subscriptions=Anonymous",
+            "wallpaper": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='312871'&EntityType='LinearSchedule'&EntityId='b5641076-67bc-4865-85b9-a994173abbda'&Width=1920&Height=1080&ImageUrl=312871.jpg&device=web_browser&subscriptions=Anonymous"
+          }
+        },
+        "isFake": false
+      },
+      {
+        "channelId": "54521",
+        "channelType": "sport",
+        "competitionTag": "",
+        "customFields": {
+          "CustomID": "epgevent-d23d1386f63b5aae820520d4b451de1e",
+          "Category": "Special",
+          "audience": "US,CA",
+          "Checksum": "c12a6325-d21f-4936-91e2-8a1283ad34b5"
+        },
+        "endDate": "2022-08-06T22:00:00Z",
+        "id": "a45b872",
+        "sportTag": "",
+        "startDate": "2022-08-06T19:00:00Z",
+        "item": {
+          "id": "",
+          "type": "program",
+          "title": "No Event Scheduled",
+          "path": "",
+          "duration": 10800,
+          "images": {
+            "thumbnail": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='302848'&EntityType='LinearSchedule'&EntityId='a45b872e-e5c9-4b5b-9480-f5e706d4b003'&Width=160&Height=90&ImageUrl=302848.png&device=web_browser&subscriptions=Anonymous",
+            "tile": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='312869'&EntityType='LinearSchedule'&EntityId='a45b872e-e5c9-4b5b-9480-f5e706d4b003'&Width=1920&Height=1080&ImageUrl=312869.jpg&device=web_browser&subscriptions=Anonymous",
+            "wallpaper": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='312871'&EntityType='LinearSchedule'&EntityId='a45b872e-e5c9-4b5b-9480-f5e706d4b003'&Width=1920&Height=1080&ImageUrl=312871.jpg&device=web_browser&subscriptions=Anonymous"
+          }
+        },
+        "isFake": false
+      }
+    ],
+    "catalogVideoId": "64851"
+  },
+  {
+    "channelId": "54523",
+    "startDate": "2022-08-06T19:00:00.000Z",
+    "endDate": "2022-08-06T21:00:00.000Z",
+    "schedules": [
+      {
+        "channelId": "54523",
+        "channelType": "sport",
+        "competitionTag": "",
+        "customFields": {
+          "CustomID": "epgevent-665800d9bc2358e8b7294d9a209b8af3",
+          "Category": "Special",
+          "audience": "US,CA",
+          "Checksum": "ae2bdb92-0dd8-46c0-8b24-f582aebd7109"
+        },
+        "endDate": "2022-08-06T22:00:00Z",
+        "id": "1c2e590",
+        "sportTag": "",
+        "startDate": "2022-08-06T18:00:00Z",
+        "item": {
+          "id": "",
+          "type": "program",
+          "title": "No Event Scheduled",
+          "path": "",
+          "duration": 14400,
+          "images": {
+            "thumbnail": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='302848'&EntityType='LinearSchedule'&EntityId='1c2e5904-9cd7-4de2-9dd7-3ccd41dedbae'&Width=160&Height=90&ImageUrl=302848.png&device=web_browser&subscriptions=Anonymous",
+            "tile": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='312869'&EntityType='LinearSchedule'&EntityId='1c2e5904-9cd7-4de2-9dd7-3ccd41dedbae'&Width=1920&Height=1080&ImageUrl=312869.jpg&device=web_browser&subscriptions=Anonymous",
+            "wallpaper": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='312871'&EntityType='LinearSchedule'&EntityId='1c2e5904-9cd7-4de2-9dd7-3ccd41dedbae'&Width=1920&Height=1080&ImageUrl=312871.jpg&device=web_browser&subscriptions=Anonymous"
+          }
+        },
+        "isFake": false
+      }
+    ],
+    "catalogVideoId": "55586"
+  },
+  {
+    "channelId": "54518",
+    "startDate": "2022-08-06T19:00:00.000Z",
+    "endDate": "2022-08-06T21:00:00.000Z",
+    "schedules": [
+      {
+        "channelId": "54518",
+        "channelType": "sport",
+        "competitionTag": "",
+        "customFields": {
+          "CustomID": "epgevent-b4a262dfcc1e5a3e93f7473fe9b0cce5",
+          "Category": "Special",
+          "audience": "US,CA",
+          "Checksum": "6e835c9e-bb96-4220-bda8-de4ecaf4218d"
+        },
+        "endDate": "2022-08-06T22:00:00Z",
+        "id": "fc85be5",
+        "sportTag": "",
+        "startDate": "2022-08-06T18:00:00Z",
+        "item": {
+          "id": "",
+          "type": "program",
+          "title": "No Event Scheduled",
+          "path": "",
+          "duration": 14400,
+          "images": {
+            "thumbnail": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='302848'&EntityType='LinearSchedule'&EntityId='fc85be53-5b9f-474d-b2f8-72a84c736f15'&Width=160&Height=90&ImageUrl=302848.png&device=web_browser&subscriptions=Anonymous",
+            "tile": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='312869'&EntityType='LinearSchedule'&EntityId='fc85be53-5b9f-474d-b2f8-72a84c736f15'&Width=1920&Height=1080&ImageUrl=312869.jpg&device=web_browser&subscriptions=Anonymous",
+            "wallpaper": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='312871'&EntityType='LinearSchedule'&EntityId='fc85be53-5b9f-474d-b2f8-72a84c736f15'&Width=1920&Height=1080&ImageUrl=312871.jpg&device=web_browser&subscriptions=Anonymous"
+          }
+        },
+        "isFake": false
+      }
+    ],
+    "catalogVideoId": "55587"
+  },
+  {
+    "channelId": "54517",
+    "startDate": "2022-08-06T19:00:00.000Z",
+    "endDate": "2022-08-06T21:00:00.000Z",
+    "schedules": [
+      {
+        "channelId": "54517",
+        "channelType": "sport",
+        "competitionTag": "",
+        "customFields": {
+          "CustomID": "epgevent-029a79f313cb52e2b4a8b008bc67d28d",
+          "Category": "Soccer",
+          "Sport": "Soccer",
+          "audience": "US,CA",
+          "Checksum": "732a3ceb-e793-43f8-9687-272389fee2a7"
+        },
+        "endDate": "2022-08-06T20:45:00Z",
+        "id": "f91fc36",
+        "live": true,
+        "sportTag": "football",
+        "startDate": "2022-08-06T18:40:00Z",
+        "item": {
+          "id": "",
+          "type": "program",
+          "title": "Fútbol Turco Superliga - Besiktas vs. Kayserispor",
+          "path": "",
+          "duration": 7500,
+          "images": {
+            "thumbnail": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='298500'&EntityType='LinearSchedule'&EntityId='f91fc36f-9ce4-4eca-81be-454546dae1ef'&Width=160&Height=90&ImageUrl=298500.jpg&device=web_browser&subscriptions=Anonymous",
+            "tile": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='301906'&EntityType='LinearSchedule'&EntityId='f91fc36f-9ce4-4eca-81be-454546dae1ef'&Width=1920&Height=1080&ImageUrl=301906.png&device=web_browser&subscriptions=Anonymous"
+          }
+        },
+        "isFake": false
+      },
+      {
+        "channelId": "54517",
+        "channelType": "sport",
+        "competitionTag": "",
+        "customFields": {
+          "CustomID": "epgevent-197f6343837857b1bdbe2d852e20c83f",
+          "Category": "Special",
+          "audience": "US,CA",
+          "Checksum": "b389ed52-f70a-4823-a198-e55b4fab84b1"
+        },
+        "endDate": "2022-08-07T02:00:00Z",
+        "id": "4648390",
+        "sportTag": "",
+        "startDate": "2022-08-06T20:45:00Z",
+        "item": {
+          "id": "",
+          "type": "program",
+          "title": "No Event Scheduled",
+          "path": "",
+          "duration": 18900,
+          "images": {
+            "thumbnail": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='302848'&EntityType='LinearSchedule'&EntityId='4648390c-ecf9-4475-85f9-176813571c1f'&Width=160&Height=90&ImageUrl=302848.png&device=web_browser&subscriptions=Anonymous",
+            "tile": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='312869'&EntityType='LinearSchedule'&EntityId='4648390c-ecf9-4475-85f9-176813571c1f'&Width=1920&Height=1080&ImageUrl=312869.jpg&device=web_browser&subscriptions=Anonymous",
+            "wallpaper": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='312871'&EntityType='LinearSchedule'&EntityId='4648390c-ecf9-4475-85f9-176813571c1f'&Width=1920&Height=1080&ImageUrl=312871.jpg&device=web_browser&subscriptions=Anonymous"
+          }
+        },
+        "isFake": false
+      }
+    ],
+    "catalogVideoId": "55588"
+  },
+  {
+    "channelId": "54522",
+    "startDate": "2022-08-06T19:00:00.000Z",
+    "endDate": "2022-08-06T21:00:00.000Z",
+    "schedules": [
+      {
+        "channelId": "54522",
+        "channelType": "sport",
+        "competitionTag": "",
+        "customFields": {
+          "CustomID": "epgevent-afca4e38d010586f8a2bd844ddddd19f",
+          "Category": "Special",
+          "audience": "US,CA",
+          "Checksum": "c85c2b55-92df-4b60-931b-fa18c8601e7d"
+        },
+        "endDate": "2022-08-06T22:00:00Z",
+        "id": "9c9574a",
+        "sportTag": "",
+        "startDate": "2022-08-06T18:00:00Z",
+        "item": {
+          "id": "",
+          "type": "program",
+          "title": "No Event Scheduled",
+          "path": "",
+          "duration": 14400,
+          "images": {
+            "thumbnail": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='302848'&EntityType='LinearSchedule'&EntityId='9c9574a1-ead6-45d1-a582-fb2be3ea8c9a'&Width=160&Height=90&ImageUrl=302848.png&device=web_browser&subscriptions=Anonymous",
+            "tile": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='312869'&EntityType='LinearSchedule'&EntityId='9c9574a1-ead6-45d1-a582-fb2be3ea8c9a'&Width=1920&Height=1080&ImageUrl=312869.jpg&device=web_browser&subscriptions=Anonymous",
+            "wallpaper": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='312871'&EntityType='LinearSchedule'&EntityId='9c9574a1-ead6-45d1-a582-fb2be3ea8c9a'&Width=1920&Height=1080&ImageUrl=312871.jpg&device=web_browser&subscriptions=Anonymous"
+          }
+        },
+        "isFake": false
+      }
+    ],
+    "catalogVideoId": "55590"
+  },
+  {
+    "channelId": "54519",
+    "startDate": "2022-08-06T19:00:00.000Z",
+    "endDate": "2022-08-06T21:00:00.000Z",
+    "schedules": [
+      {
+        "channelId": "54519",
+        "channelType": "sport",
+        "competitionTag": "",
+        "customFields": {
+          "CustomID": "epgevent-b6cc31c42b0b55628aa1b522684d408a",
+          "Category": "Special",
+          "audience": "US,CA",
+          "Checksum": "af6bcd8f-e59b-4355-9128-9ec4882534a8"
+        },
+        "endDate": "2022-08-06T22:00:00Z",
+        "id": "a78c834",
+        "sportTag": "",
+        "startDate": "2022-08-06T18:00:00Z",
+        "item": {
+          "id": "",
+          "type": "program",
+          "title": "No Event Scheduled",
+          "path": "",
+          "duration": 14400,
+          "images": {
+            "thumbnail": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='302848'&EntityType='LinearSchedule'&EntityId='a78c8348-5acb-4c10-94c9-626202650fc7'&Width=160&Height=90&ImageUrl=302848.png&device=web_browser&subscriptions=Anonymous",
+            "tile": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='312869'&EntityType='LinearSchedule'&EntityId='a78c8348-5acb-4c10-94c9-626202650fc7'&Width=1920&Height=1080&ImageUrl=312869.jpg&device=web_browser&subscriptions=Anonymous",
+            "wallpaper": "https://us-static.beinstatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='312871'&EntityType='LinearSchedule'&EntityId='a78c8348-5acb-4c10-94c9-626202650fc7'&Width=1920&Height=1080&ImageUrl=312871.jpg&device=web_browser&subscriptions=Anonymous"
+          }
+        },
+        "isFake": false
+      }
+    ],
+    "catalogVideoId": "55591"
+  }
+]

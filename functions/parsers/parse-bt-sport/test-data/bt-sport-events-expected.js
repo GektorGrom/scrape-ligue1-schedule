@@ -10,6 +10,7 @@ export default [
     isLigueShow: true,
     isLive: true,
     chanel: 'BT Sport 2',
+    utcDay: '2021-08-06',
   },
   {
     id: '1628273700Ligue 1 ShowBT Sport 2',
@@ -22,6 +23,7 @@ export default [
     isLigueShow: true,
     isLive: true,
     chanel: 'BT Sport 2',
+    utcDay: '2021-08-06',
   },
   {
     id: '1628275500Live: Monaco v NantesBT Sport 2',
@@ -34,6 +36,7 @@ export default [
     isLigueShow: false,
     isLive: true,
     chanel: 'BT Sport 2',
+    utcDay: '2021-08-06',
   },
   {
     id: '1628226000Ligue 1 ShowBT Sport 3',
@@ -46,6 +49,7 @@ export default [
     isLigueShow: true,
     isLive: true,
     chanel: 'BT Sport 3',
+    utcDay: '2021-08-06',
   },
   {
     id: '1628242200Ligue 1 ShowBT Sport 3',
@@ -58,6 +62,7 @@ export default [
     isLigueShow: true,
     isLive: true,
     chanel: 'BT Sport 3',
+    utcDay: '2021-08-06',
   },
   {
     id: '1628263800Ligue 1 ShowBT Sport 3',
@@ -70,5 +75,6 @@ export default [
     isLigueShow: true,
     isLive: true,
     chanel: 'BT Sport 3',
+    utcDay: '2021-08-06',
   },
 ];
